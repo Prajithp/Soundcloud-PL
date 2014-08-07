@@ -48,8 +48,9 @@ sub ua {
 sub guess_url {
   my ($self, $url) = @_;
   
-  # valid urls are
   $url ||= $self->{url};
+  
+  # valid urls are
   
   # http://soundcloud.com/user/song-name 	[single_song]
   # http://soundcloud.com/user/sets/set-name	[playlist]
@@ -292,7 +293,7 @@ else {
 sub usage {
   print STDERR <<USAGE;
 Usage:
-    soundCloud-downloader --url http://soundcloud.com/user/sets/set-name [options]
+    soundCloud-downloader --url <soundcloud url> [options]
 Options:
     --download_dir	<path>		Where to save downloaded data.
     --allow_override			Overwrite the output file if exists.
