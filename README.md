@@ -39,7 +39,7 @@ cpan install module name here
 1. Download [this](https://github.com/Prajithp/Soundcloud-PL/archive/master.zip)
 2. Unzip
 3. Install missing perl modules
-5. Type `./soundcloud-pl --url {URL} {OPTION}`
+5. Type `./soundcloud_dl.pl --url {URL} {OPTION}`
 
 
 ## License
